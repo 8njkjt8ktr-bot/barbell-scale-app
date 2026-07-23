@@ -1,36 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 310" role="img" aria-labelledby="title">
-<title>Barbell and Scale</title>
-<rect width="720" height="310" fill="#090909"/>
-<g transform="translate(30 14)">
-  <path d="M150 90 Q330 18 510 90" fill="none" stroke="#f5f5f5" stroke-width="24" stroke-linecap="round"/>
-  <path d="M150 90 Q330 35 510 90" fill="none" stroke="#bfc2c7" stroke-width="6" stroke-linecap="round"/>
-  <g fill="#ef233c" stroke="#780815" stroke-width="3">
-    <path d="M68 32 L103 20 L126 134 L91 146 Z"/>
-    <path d="M101 25 L135 17 L153 128 L120 137 Z"/>
-    <path d="M132 27 L163 25 L174 119 L145 126 Z"/>
-    <path d="M592 32 L557 20 L534 134 L569 146 Z"/>
-    <path d="M559 25 L525 17 L507 128 L540 137 Z"/>
-    <path d="M528 27 L497 25 L486 119 L515 126 Z"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 360" role="img" aria-labelledby="title desc">
+<title id="title">Barbell and Scale</title><desc id="desc">A curved silver barbell with red weight plates forming the top of a scale, white gauge marks and a red needle.</desc>
+<rect width="900" height="360" fill="#090909"/>
+<g transform="translate(42 12)">
+  <path d="M180 105 Q408 12 636 105" fill="none" stroke="#5f6267" stroke-width="36" stroke-linecap="round"/>
+  <path d="M180 99 Q408 13 636 99" fill="none" stroke="#f4f4f5" stroke-width="25" stroke-linecap="round"/>
+  <path d="M180 94 Q408 23 636 94" fill="none" stroke="#b9bcc2" stroke-width="5" stroke-linecap="round"/>
+  <g fill="#ef233c" stroke="#7d0714" stroke-width="4">
+    <path d="M72 39 L112 25 L139 159 L98 173 Z"/><path d="M109 31 L149 21 L171 151 L132 162 Z"/><path d="M146 31 L183 30 L196 141 L160 149 Z"/>
+    <path d="M744 39 L704 25 L677 159 L718 173 Z"/><path d="M707 31 L667 21 L645 151 L684 162 Z"/><path d="M670 31 L633 30 L620 141 L656 149 Z"/>
   </g>
-  <g fill="#d7d9dd">
-    <rect x="51" y="69" width="22" height="42" rx="6"/>
-    <rect x="584" y="69" width="22" height="42" rx="6"/>
-    <rect x="145" y="62" width="22" height="45" rx="7" transform="rotate(-11 156 84)"/>
-    <rect x="493" y="62" width="22" height="45" rx="7" transform="rotate(11 504 84)"/>
+  <g fill="#d9dbe0"><rect x="45" y="79" width="28" height="48" rx="7"/><rect x="743" y="79" width="28" height="48" rx="7"/><rect x="173" y="68" width="26" height="52" rx="8" transform="rotate(-12 186 94)"/><rect x="617" y="68" width="26" height="52" rx="8" transform="rotate(12 630 94)"/></g>
+  <g stroke="#fff" stroke-width="7" stroke-linecap="round">
+    <path d="M270 88 L264 65"/><path d="M303 76 L299 50"/><path d="M337 67 L334 39"/><path d="M372 62 L371 32"/><path d="M408 60 L408 29"/><path d="M444 62 L445 32"/><path d="M479 67 L482 39"/><path d="M513 76 L517 50"/><path d="M546 88 L552 65"/>
   </g>
-  <!-- scale gauge ticks -->
-  <g stroke="#ffffff" stroke-width="5" stroke-linecap="round">
-    <path d="M224 72 L220 55"/><path d="M251 62 L248 43"/><path d="M279 55 L277 35"/>
-    <path d="M307 51 L306 29"/><path d="M335 50 L335 27"/><path d="M363 51 L364 29"/>
-    <path d="M391 55 L393 35"/><path d="M419 62 L422 43"/><path d="M446 72 L450 55"/>
-  </g>
-  <!-- gauge needle and lower scale arc -->
-  <path d="M235 133 Q330 174 425 133" fill="none" stroke="#ef233c" stroke-width="6" stroke-linecap="round"/>
-  <path d="M330 145 L330 78 L312 143 Z" fill="#ef233c"/>
-  <circle cx="330" cy="145" r="17" fill="#090909" stroke="#ef233c" stroke-width="7"/>
+  <path d="M286 151 Q408 208 530 151" fill="none" stroke="#ef233c" stroke-width="8" stroke-linecap="round"/>
+  <path d="M408 168 L408 81 L387 166 Z" fill="#ef233c"/><circle cx="408" cy="168" r="20" fill="#090909" stroke="#ef233c" stroke-width="9"/>
 </g>
-<text x="360" y="235" text-anchor="middle" font-family="Arial Black,Impact,sans-serif" font-size="58" font-weight="900" fill="#f4f4f4" letter-spacing="1">BARBELL <tspan fill="#ef233c">&amp;</tspan> SCALE</text>
-<line x1="55" y1="270" x2="138" y2="270" stroke="#ef233c" stroke-width="5"/>
-<line x1="582" y1="270" x2="665" y2="270" stroke="#ef233c" stroke-width="5"/>
-<text x="360" y="280" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="800" fill="#ef233c" letter-spacing="7">TALK. TRAIN. TRACK.</text>
+<text x="450" y="283" text-anchor="middle" font-family="Impact,Arial Black,sans-serif" font-size="72" font-weight="900" fill="#f4f4f5" letter-spacing="2">BARBELL <tspan fill="#ef233c">&amp;</tspan> SCALE</text>
+<line x1="74" y1="321" x2="184" y2="321" stroke="#ef233c" stroke-width="7"/><line x1="716" y1="321" x2="826" y2="321" stroke="#ef233c" stroke-width="7"/>
+<text x="450" y="330" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="28" font-weight="900" fill="#ef233c" letter-spacing="10">TALK. TRAIN. TRACK.</text>
 </svg>

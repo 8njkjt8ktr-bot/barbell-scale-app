@@ -71,7 +71,12 @@ module.exports = async function handler(req, res) {
       console.error(payload);
       return res.status(response.status).json({ error: payload?.error?.message || 'OpenAI request failed' });
     }
-    const parsed = extractJSON(payload.output_text);
+    const modelText = Array.isArray(payload.output)
+      ? payload.output.flatMap(item => Array.isArray(item.content) ? item.content : [])
+          .filter(part => part && part.type === 'output_text' && typeof part.text === 'string')
+          .map(part => part.text).join('')
+      : '';
+    const parsed = extractJSON(modelText);
     return res.status(200).json({
       reply: String(parsed.reply || 'I’m here.'),
       actions: Array.isArray(parsed.actions) ? parsed.actions.slice(0, 10) : []
