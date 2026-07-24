@@ -23,3 +23,14 @@ The gauge marks now sit completely below the bar and no longer cross through it.
 - Removed Quick Log from the Home screen.
 - Spotter now remains usable in built-in coach mode when the server AI endpoint is unavailable.
 - Full AI activates automatically when deployed with `/api/chat` and `OPENAI_API_KEY`.
+
+
+## v12 update
+- The bottom navigation Spotter tab now uses the Spotter mascot logo instead of a generic chat bubble.
+
+
+## v13 navigation update
+- Workout tab now uses a branded barbell icon.
+- Nutrition tab now uses a matching scale icon.
+- Spotter tab keeps the Spotter mascot.
+- Updated service-worker cache for reliable upgrades.
