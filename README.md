@@ -17,3 +17,9 @@ Real AI setup: see DEPLOY-VERCEL.md.
 
 ## v8 logo correction
 The gauge marks now sit completely below the bar and no longer cross through it.
+
+
+## v11 fixes
+- Removed Quick Log from the Home screen.
+- Spotter now remains usable in built-in coach mode when the server AI endpoint is unavailable.
+- Full AI activates automatically when deployed with `/api/chat` and `OPENAI_API_KEY`.

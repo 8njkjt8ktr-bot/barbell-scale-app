@@ -9,11 +9,11 @@
   <meta name="description" content="Barbell & Scale — talk, train, and track your fitness.">
   <title>Barbell & Scale</title>
   <link rel="manifest" href="manifest.webmanifest">
-  <link rel="stylesheet" href="styles.css?v=9">
+  <link rel="stylesheet" href="styles.css?v=11">
 </head>
 <body>
   <header class="app-header">
-    <img class="brand-logo" src="logo.svg?v=9" alt="Barbell and Scale">
+    <img class="brand-logo" src="logo.svg?v=11" alt="Barbell and Scale">
     <button class="profile-chip" data-nav="profile" aria-label="Open profile"><span id="profileInitial">C</span></button>
   </header>
 
@@ -39,17 +39,6 @@
         <article><span class="metric-icon">↕</span><small>WEIGHT</small><b id="homeWeight">—</b><em>latest</em></article>
       </div>
 
-      <div class="section-heading"><h3>Quick log</h3><span>Stay consistent</span></div>
-      <div class="quick-grid">
-        <div class="card quick-card">
-          <div class="card-title"><span>💧</span><div><b>Water</b><small>Add ounces</small></div></div>
-          <div class="inline-field"><input id="quickWater" inputmode="decimal" type="number" placeholder="32"><button id="quickWaterButton">Add</button></div>
-        </div>
-        <div class="card quick-card">
-          <div class="card-title"><span>⚖️</span><div><b>Body weight</b><small>Track the trend</small></div></div>
-          <div class="inline-field"><input id="quickWeight" inputmode="decimal" type="number" step=".1" placeholder="180.4"><button id="quickWeightButton">Log</button></div>
-        </div>
-      </div>
     </section>
 
     <section class="screen" data-screen="workout">
@@ -78,7 +67,7 @@
     </section>
 
     <section class="screen" data-screen="spotter">
-      <div class="spotter-title"><span class="spotter-icon-wrap large"><img src="spotter-robot.svg" alt=""></span><div><p class="eyebrow">TALK</p><h2>Spotter</h2></div><span id="aiStatus" class="online-dot checking">CHECKING</span></div>
+      <div class="spotter-title"><span class="spotter-icon-wrap large"><img src="spotter-robot.svg" alt=""></span><div><p class="eyebrow">TALK</p><h2>Spotter</h2></div><span id="aiStatus" class="online-dot ready">READY</span></div>
       <div class="coach-banner"><b>Your coach remembers today’s logs.</b><span>Tell Spotter what you ate, drank, weighed, or lifted.</span></div>
       <div class="card chat-card">
         <div id="chatLog" class="chat"></div>
